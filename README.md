@@ -35,11 +35,15 @@ Larger animals are often said to live longer. This project asks two questions:
   but leaves most variation unexplained.
 - Shallow slope: the log-log slope is 0.143, so a ten-fold increase in mass corresponds to only about a
   1.39-fold increase in maximum longevity.
-- Birds and mammals have similar slopes (0.183 and 0.207) but different levels: at 100 g the fitted
-  longevity is about 8.7 years for a mammal and about 16.2 years for a bird.
+- Fitted separately the two best-sampled classes both fit better than the pooled model: mammals
+  (n = 349) give slope 0.183 and R2 = 0.44, birds (n = 167) give slope 0.207 and R2 = 0.51, against
+  R2 = 0.28 for all 546 species together. The classes differ mainly in level, not in slope: at 100 g
+  the fitted longevity is about 8.7 years for a mammal and about 16.2 years for a bird.
 - **Limitation:** maximum longevity is a record value rather than an average lifespan, so it depends on
   observation effort, and 3591 of the 4218 source rows do not report body mass, which leaves 546 usable
-  species. The analysis is observational and does not establish causation.
+  species. Species are also not independent data points - the 546 species come from 28 mammal orders
+  and 34 bird orders, and close relatives resemble each other - so ordinary least squares over species
+  understates the real uncertainty. The analysis is observational and does not establish causation.
 
 ## Instructions for running the analysis
 
